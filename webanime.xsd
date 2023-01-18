@@ -20,6 +20,4 @@
         <xs:sequence>
             <xs:element name="award" type="awardType" maxOccurs="unbounded"/>
         </xs:sequence>
-        </xs:complexType>
-        </xs:schema>
     </xs:complexType>
