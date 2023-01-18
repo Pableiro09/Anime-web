@@ -1,1 +1,17 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
+<animeList>
+    <anime title="Fullmetal Alchemist: Brotherhood" description="Después de perder a su madre, Alphonse y Edward Elric buscan la piedra filosofal para traerla de vuelta, pero descubren la verdad detrás de la alquimia." duration="64" genre="Acción, Aventura, Fantasía" releaseDate="2009-04-05">
+        <awards>
+            <award name="International Anime Fair" year="2010" prize="Mejor Serie de Anime"/>
+            <award name="Anime Awards" year="2010" prize="Mejor Guión"/>
+            <award name="Anime Awards" year="2011" prize="Mejor Director"/>
+        </awards>
+    </anime>
+    <anime title="Your Lie in April" description="Un joven prodigio del piano lucha con su pasión después de sufrir un traumatismo, hasta que conoce a un violinista que le ayuda a encontrar su camino de regreso." duration="22" genre="Drama, Romance, Música" releaseDate="2014-10-10">
+        <awards>
+            <award name="International Anime Fair" year="2015" prize="Mejor Serie de Anime"/>
+            <award name="Anime Awards" year="2015" prize="Mejor Banda Sonora"/>
+            <award name="Anime Awards" year="2016" prize="Mejor Dirección de Arte"/>
+        </awards>
+    </anime>
+</animeList>
