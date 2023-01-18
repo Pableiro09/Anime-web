@@ -14,4 +14,16 @@
             <Premio Nombre="Anime Awards" año="2016" Tipo="Mejor Dirección de Arte"/>
         </Premios>
     </anime>
+    <anime>
+        <Nombre>Naruto</Nombre>
+        <descripcion>Un joven ninja llamado Naruto lucha para ser reconocido en su aldea mientras busca ser el Hokage, el líder de su aldea.</descripcion>
+        <duracion>220</duracion>
+        <genero>Acción, Aventura, Fantasía</genero>
+        <FechaSalida>2002-10-03</FechaSalida>
+        <Premios>
+            <Premio>Premio de mejor anime en el Festival de Anime de Tokio</Premio>
+            <Premio>Nominado al premio de mejor anime en el Festival de Anime de Kyoto</Premio>
+            <Premio>Ganador del premio de mejor anime en el Festival de Anime de Osaka</Premio>
+        </Premios>
+    </anime>
 </ListaAnime>
