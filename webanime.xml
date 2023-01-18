@@ -2,16 +2,16 @@
 <ListaAnime>
     <anime Titulo="Fullmetal Alchemist: Brotherhood" descripcion="Después de perder a su madre, Alphonse y Edward Elric buscan la piedra filosofal para traerla de vuelta, pero descubren la verdad detrás de la alquimia." duration="64" genre="Acción, Aventura, Fantasía" releaseDate="2009-04-05">
         <Premios>
-            <Premio Nombre="International Anime Fair" año="2010" prize="Mejor Serie de Anime"/>
-            <Premio Nombre="Anime Awards" año="2010" prize="Mejor Guión"/>
-            <Premio Nombre="Anime Awards" año="2011" prize="Mejor Director"/>
+            <Premio Nombre="International Anime Fair" año="2010" Tipo="Mejor Serie de Anime"/>
+            <Premio Nombre="Anime Awards" año="2010" Tipo="Mejor Guión"/>
+            <Premio Nombre="Anime Awards" año="2011" Tipo="Mejor Director"/>
         </Premios>
     </anime>
     <anime Titulo="Your Lie in April" descripcion="Un joven prodigio del piano lucha con su pasión después de sufrir un traumatismo, hasta que conoce a un violinista que le ayuda a encontrar su camino de regreso." duration="22" genre="Drama, Romance, Música" releaseDate="2014-10-10">
         <Premios>
-            <Premio Nombre="International Anime Fair" año="2015" prize="Mejor Serie de Anime"/>
-            <Premio Nombre="Anime Awards" año="2015" prize="Mejor Banda Sonora"/>
-            <Premio Nombre="Anime Awards" año="2016" prize="Mejor Dirección de Arte"/>
+            <Premio Nombre="International Anime Fair" año="2015" Tipo="Mejor Serie de Anime"/>
+            <Premio Nombre="Anime Awards" año="2015" Tipo="Mejor Banda Sonora"/>
+            <Premio Nombre="Anime Awards" año="2016" Tipo="Mejor Dirección de Arte"/>
         </Premios>
     </anime>
 </ListaAnime>
