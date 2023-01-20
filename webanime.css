@@ -1,12 +1,30 @@
-
+html{background-image: url( https://i.blogs.es/04ac6a/2560_3000/1366_2000.jpeg);}
 h1{text-align: left;}
 p.cursiv{font-style: italic;}
 
-html{background-color: rgb(62, 77, 184);}
-html{background-color: #fbfcfa ;}
-h1.naranja{font-family:Saiyan Sans, sans-serif; font-weight: 500; -webkit-text-stroke: 2px black;
+#naranja{font-family:Saiyan Sans, sans-serif; font-weight: 500; -webkit-text-stroke: 2px black;
     color:#FFB33F ; }
 
-p.rojo{font-family:Saiyan Sans, sans-serif; font-weight: 500; -webkit-text-stroke: 2px black;
+#rojo{font-family:Saiyan Sans, sans-serif; font-weight: 500; -webkit-text-stroke: 2px black;
 color:#C10909 ;}
 
+#enlace{
+    position: relative;
+  }
+  #enlace::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    border-radius: 4px;
+    background-color: var(--text);
+    bottom: 0;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform 0.3s ease-in-out;
+  }
+  #enlace:hover::before {
+    transform-origin: left;
+    transform: scaleX(1);
+  }
