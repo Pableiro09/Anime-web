@@ -26,4 +26,11 @@
             <Premio>Ganador del premio de mejor anime en el Festival de Anime de Osaka</Premio>
         </Premios>
     </anime>
+    <anime>
+        <Nombre>Hunter x Hunter (2011)</Nombre>
+        <descripcion>Después de aprender la verdad sobre su padre, el joven Gon Freecss decide seguir sus pasos y convertirse en un cazador, un miembro de una élite de individuos con habilidades especiales. A medida que viaja por el mundo, Gon se une a un grupo de amigos y enemigos mientras busca su objetivo final.</descripcion>
+        <premiosGanados>3</premiosGanados>
+        <nominaciones>5</nominaciones>
+        <añoPremiacion>2011</añoPremiacion>
+      </anime>
 </ListaAnime>
