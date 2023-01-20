@@ -4,6 +4,9 @@ p.cursiv{font-style: italic;}
 
 html{background-color: rgb(62, 77, 184);}
 html{background-color: #fbfcfa ;}
-h1{font-family:Saiyan Sans, sans-serif; font-weight: 500;}
+#naranja{font-family:Saiyan Sans, sans-serif; font-weight: 500; -webkit-text-stroke: 2px black;
+    color:#FFB33F ; }
 
+#rojo {font-family:Saiyan Sans, sans-serif; font-weight: 500; -webkit-text-stroke: 2px black;
+color:#C10909 ;}
 
