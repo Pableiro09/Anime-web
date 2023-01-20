@@ -1,24 +1,36 @@
-<?xml version="1.0" encoding="UTF-8"?>
-    <xs:element Nombre="Lista anime" type="Lista tipos de Anime"/>
-    <xs:complexType Nombre="Lista tipos de Anime">
-        <xs:sequence>
-            <xs:element Nombre="anime" type="TipoAnime" maxOccurs="unbounded"/>
-        </xs:sequence>
-    </xs:complexType>
-    <xs:complexType Nombre="animeType">
-        <xs:sequence>
-            <xs:element Nombre="premios" type="tipoPremios"/>
-        </xs:sequence>
-        <xs:attribute Nombre="Titulo" type="xs:string" use="required"/>
-        <xs:attribute Nombre="Descripcion" type="xs:string" use="required"/>
-        <xs:attribute Nombre="Duracion" type="xs:integer" use="required"/>
-        <xs:attribute Nombre="Genero" type="xs:string" use="required"/>
-        <xs:attribute Nombre="FechaDeSalida" type="xs:date" use="required"/>
-    </xs:complexType>
-    <xs:complexType Nombre="Tipo de premio">
-        <xs:sequence>
-            <xs:element Nombre="Premio" type="Tipo de premio" maxOccurs="unbounded"/>
-        </xs:sequence>
-        </xs:complexType>
-        </xs:schema>
-    </xs:complexType>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  
+  <xs:element name="animes" type="animesType"/>
+  
+  <xs:complexType name="animesType">
+    <xs:sequence>
+      <xs:element name="anime" type="animeType" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+  
+  <xs:complexType name="animeType">
+    <xs:sequence>
+      <xs:element name="titulo" type="xs:string"/>
+      <xs:element name="descripcion" type="xs:string"/>
+      <xs:element name="duracion" type="xs:positiveInteger"/>
+      <xs:element name="genero" type="xs:string"/>
+      <xs:element name="fechaLanzamiento" type="xs:date"/>
+      <xs:element name="premios" type="premiosType"/>
+    </xs:sequence>
+  </xs:complexType>
+  
+  <xs:complexType name="premiosType">
+    <xs:sequence>
+      <xs:element name="premio" type="premioType" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+  
+  <xs:complexType name="premioType">
+    <xs:sequence>
+      <xs:element name="nombrePremio" type="xs:string"/>
+      <xs:element name="anioPremiacion" type="xs:gYear" minOccurs="0"/>
+      <xs:element name="nominaciones" type="xs:nonNegativeInteger" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  
+</xs:schema>
