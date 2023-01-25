@@ -1,30 +1,48 @@
-html{background-image: url( https://i.blogs.es/04ac6a/2560_3000/1366_2000.jpeg);}
-h1{text-align: left;}
-p.cursiv{font-style: italic;}
+html
 
-#naranja{font-family:Saiyan Sans, sans-serif; font-weight: 500; -webkit-text-stroke: 2px black;
-    color:#FFB33F ; }
+{background-image: url( https://wallpaperaccess.com/full/1592928.jpg);}
 
-#rojo{font-family:Saiyan Sans, sans-serif; font-weight: 500; -webkit-text-stroke: 2px black;
-color:#C10909 ;}
+header{width: 2000px;
+  height: 5px;
+   background-color: rgb(211, 34, 202); 
+   border: 4000px darkorange;
+   margin: -10px;
+   padding: 60px;
+  position: relative;
+  top: -50px;;
+  }
+  #buscador{position: relative;top: -70px; left: 600px; width: 400px; height: 40px }
 
-#enlace{
-    position: relative;
+   
+
+  
+
+  #naranja
+  {
+    font-size: 50px;
+    font-family:Saiyan Sans, sans-serif;
+     font-weight: 500; -webkit-text-stroke: 
+     2px black; 
+    color:#FFB33F ;
+     position: relative;
+     top: -70px; 
+     left: 300px;
+     width: 50px; 
+     height: 70px 
   }
-  #enlace::before {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 4px;
-    border-radius: 4px;
-    background-color: var(--text);
-    bottom: 0;
-    left: 0;
-    transform-origin: right;
-    transform: scaleX(0);
-    transition: transform 0.3s ease-in-out;
-  }
-  #enlace:hover::before {
-    transform-origin: left;
-    transform: scaleX(1);
-  }
+
+    
+
+#int
+{
+  width: 2000px;
+  height: 75px;
+   background-color: rgb(26, 235, 26); 
+   border: 4000px darkorange;
+   margin: -10px;
+   padding: 1px;
+
+
+
+}
+  
