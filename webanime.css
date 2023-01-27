@@ -1,17 +1,22 @@
 html
 
-{background-image: url( https://wallpaperaccess.com/full/1592928.jpg);}
+{background-image: ;}
 
 header{width: 2000px;
-  height: 5px;
-   background-color: rgb(211, 34, 202); 
+  height: 10px;
+   background-color: rgb(98, 68, 231); 
    border: 4000px darkorange;
-   margin: -10px;
+   margin: 50px;
    padding: 60px;
   position: relative;
   top: -50px;;
-  }
-  #buscador{position: relative;top: -70px; left: 600px; width: 400px; height: 40px }
+  margin-left: -1%;
+}
+  #buscador{position: relative;
+    top: -157px; 
+    left: 650px;
+    width: 400px;
+     height: 40px }
 
 p.rojo{font-family:Saiyan Sans, sans-serif; font-weight: 500; -webkit-text-stroke: 2px black;
 color:#C10909 ;}
@@ -53,4 +58,11 @@ color:#C10909 ;}
 #seccion1{
   margin-top: 7%;
 }
-  
+
+video {
+  position: fixed;
+  left: 1;
+  right: 1px; ;
+  top: 0;
+  height:120%;
+  z-index: -1;}
