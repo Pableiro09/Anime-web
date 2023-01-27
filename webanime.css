@@ -1,8 +1,15 @@
 html
 
-{background-image: ;}
 
-header{width: 2000px;
+video {
+  position: fixed;
+  left: 1;
+  right: 1px; ;
+  top: 0;
+  height:120%;
+  z-index: -1;}
+
+  header{width: 2000px;
   height: 10px;
    background-color: rgb(98, 68, 231); 
    border: 4000px darkorange;
@@ -59,10 +66,3 @@ color:#C10909 ;}
   margin-top: 7%;
 }
 
-video {
-  position: fixed;
-  left: 1;
-  right: 1px; ;
-  top: 0;
-  height:120%;
-  z-index: -1;}
