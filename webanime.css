@@ -1,11 +1,17 @@
+html
 
-h1{text-align: left;}
-p.cursiv{font-style: italic;}
+{background-image: url( https://wallpaperaccess.com/full/1592928.jpg);}
 
-html{background-color: rgb(62, 77, 184);}
-html{background-color: #fbfcfa ;}
-h1.naranja{font-family:Saiyan Sans, sans-serif; font-weight: 500; -webkit-text-stroke: 2px black;
-    color:#FFB33F ; }
+header{width: 2000px;
+  height: 5px;
+   background-color: rgb(211, 34, 202); 
+   border: 4000px darkorange;
+   margin: -10px;
+   padding: 60px;
+  position: relative;
+  top: -50px;;
+  }
+  #buscador{position: relative;top: -70px; left: 600px; width: 400px; height: 40px }
 
 p.rojo{font-family:Saiyan Sans, sans-serif; font-weight: 500; -webkit-text-stroke: 2px black;
 color:#C10909 ;}
@@ -14,3 +20,34 @@ color:#C10909 ;}
 #sec2{justify-content: space-evenly;display: inline-grid;display: grid;grid-template-columns: auto auto auto;text-align: center;}
 #sec21{justify-content: space-evenly;display: inline-grid;display: grid;grid-template-columns: auto auto auto;text-align: center;}
 
+  
+
+  #naranja
+  {
+    font-size: 50px;
+    font-family:Saiyan Sans, sans-serif;
+     font-weight: 500; -webkit-text-stroke: 
+     2px black; 
+    color:#FFB33F ;
+     position: relative;
+     top: -70px; 
+     left: 300px;
+     width: 50px; 
+     height: 70px 
+  }
+
+    
+
+#int
+{
+  width: 2000px;
+  height: 75px;
+   background-color: rgb(26, 235, 26); 
+   border: 4000px darkorange;
+   margin: -10px;
+   padding: 1px;
+
+
+
+}
+  
