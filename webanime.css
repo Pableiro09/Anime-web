@@ -40,14 +40,18 @@ color:#C10909 ;}
 
 #int
 {
-  width: 2000px;
+  width: 5000px;
   height: 75px;
    background-color: rgb(26, 235, 26); 
-   border: 4000px darkorange;
+   border: 400px darkorange;
    margin: -10px;
-   padding: 1px;
+   padding: -100px;
 
+}
 
+#seccion1 
+{
+margin-top: 4%;
 
 }
   
