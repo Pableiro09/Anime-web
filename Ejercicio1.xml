@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListaAnime>
+    <anime Titulo="Fullmetal Alchemist: Brotherhood" descripcion="Después de perder a su madre, Alphonse y Edward Elric buscan la piedra filosofal para traerla de vuelta, pero descubren la verdad detrás de la alquimia." duracion="64" genero="Acción, Aventura, Fantasía" FechaSalida="2009-04-05">
+        <Premios>
+            <Premio Nombre="International Anime Fair" año="2010" Tipo="Mejor Serie de Anime"/>
+            <Premio Nombre="Anime Awards" año="2010" Tipo="Mejor Guión"/>
+            <Premio Nombre="Anime Awards" año="2011" Tipo="Mejor Director"/>
+        </Premios>
+    </anime>
+    <anime Titulo="Your Lie in April" descripcion="Un joven prodigio del piano lucha con su pasión después de sufrir un traumatismo, hasta que conoce a un violinista que le ayuda a encontrar su camino de regreso." duracion="22" genero="Drama, Romance, Música" FechaSalida="2014-10-10">
+        <Premios>
+            <Premio Nombre="International Anime Fair" año="2015" Tipo="Mejor Serie de Anime"/>
+            <Premio Nombre="Anime Awards" año="2015" Tipo="Mejor Banda Sonora"/>
+            <Premio Nombre="Anime Awards" año="2016" Tipo="Mejor Dirección de Arte"/>
+        </Premios>
+    </anime>
+    
+        <anime Titulo="Naruto">
+        <descripcion>Un joven ninja llamado Naruto lucha para ser reconocido en su aldea mientras busca ser el Hokage, el líder de su aldea.</descripcion>
+        <duracion>220</duracion>
+        <genero>Acción, Aventura, Fantasía</genero>
+        <FechaSalida>2002-10-03</FechaSalida>
+        <Premios>
+            <Premio>Premio de mejor anime en el Festival de Anime de Tokio</Premio>
+            <Premio>Nominado al premio de mejor anime en el Festival de Anime de Kyoto</Premio>
+            <Premio>Ganador del premio de mejor anime en el Festival de Anime de Osaka</Premio>
+        </Premios>
+    </anime>
+        <anime Titulo="Hunter x Hunter (2011)">
+        <descripcion>Después de aprender la verdad sobre su padre, el joven Gon Freecss decide seguir sus pasos y convertirse en un cazador, un miembro de una élite de individuos con habilidades especiales. A medida que viaja por el mundo, Gon se une a un grupo de amigos y enemigos mientras busca su objetivo final.</descripcion>
+        <premiosGanados>3</premiosGanados>
+        <nominaciones>5</nominaciones>
+        <añoPremiacion>2011</añoPremiacion>
+      </anime>
+
+      <AnimeConmasPremiosEnLosUltimos10años>
+        <anime1>Fullmetal Alchemist: Brotherhood</anime1>
+        <anime2>Death Note</anime2>
+        <anime3>Hunter x Hunter </anime3>
+        <anime4>Kimetsu no Yaiba: Yūkaku-hen</anime4>
+        <anime5>Clannad: After Story</anime5>
+        <anime6>Code Geass: Lelouch of the Rebellion R2</anime6>
+        <anime7>Ghost in the Shell: Stand Alone Complex 2nd GIG</anime7>
+        <anime8>Cowboy Bebop </anime8>
+        <anime9>Hajime no Ippo: New Challenger</anime9>
+        <anime10>Espíritu de lucha (Hajime no Ippo)</anime10>
+        </AnimeConmasPremiosEnLosUltimos10años>
+
+        <Top20MejoresAnimeDeLaHistoria>
+            <top1>Fullmetal Alchemist: Brotherhood</top1>
+            <top2>Death Note</top2>
+            <top3>Shingeki no Kyojin</top3>
+            <top4>Hunter x Hunter</top4>
+            <top5>Cowboy Bebop</top5>
+            <top6>Steins;Gate</top6>
+            <top7>One Piece</top7>
+            <top8>Dragon Ball Z </top8>
+            <top9>Code Geass </top9>
+            <top10>Berserk </top10>
+            <top11>Monster </top11>
+            <top12>Neon Genesis Evangelion</top12>
+            <top13>Dragon Ball</top13>
+            <top14>Samurai Champloo</top14>
+            <top15> Ghost in the Shell: Stand Alone Complex </top15>
+            <top16>Mushishi</top16>
+            <top17>Fullmetal Alchemist</top17>
+            <top18>Yu Yu Hakusho: Ghost Files</top18>
+            <top19>Tengen Toppa Gurren Lagann</top19>
+            <top20>Trigun </top20>
+        </Top20MejoresAnimeDeLaHistoria>
+</ListaAnime>
