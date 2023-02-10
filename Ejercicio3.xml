@@ -1,0 +1,135 @@
+<xsl:stylesheet xmlns:xsl="Ejercicio1.xml" version="1.0">
+  <xsl:output method="html" />
+  
+  <xsl:template match="/">
+    <html>
+      <head>
+        <title>Tabla de Animes</title>
+      </head>
+      <body>
+        <h1>Anime 1</h1>
+        <table border="1">
+          <tr>
+            <th>Título</th>
+            <th>Autor</th>
+            <th>País</th>
+            <th>Premios</th>
+          </tr>
+          <xsl:for-each select="anime-list/anime">
+            <tr>
+              <td>
+                <a href="detalle-anime.html?titulo={titulo}">
+                  <xsl:value-of select="Fullmetal Alchemist: Brotherhood" />
+                </a>
+              </td>
+              <td><xsl:value-of select="Bones" /></td>
+              <td><xsl:value-of select="Japon" /></td>
+              <td><xsl:value-of select="3" /></td>
+            </tr>
+          </xsl:for-each>
+        </table>
+
+        <h1>Anime 2</h1>
+        <table border="1">
+          <tr>
+            <th>Título</th>
+            <th>Autor</th>
+            <th>País</th>
+            <th>Premios</th>
+          </tr>
+          <xsl:for-each select="anime-list/anime">
+            <tr>
+              <td>
+                <a href="detalle-anime.html?titulo={titulo}">
+                  <xsl:value-of select="Your Lie in April" />
+                </a>
+              </td>
+              <td><xsl:value-of select="Naoshi Arakawa" /></td>
+              <td><xsl:value-of select="Japon" /></td>
+              <td><xsl:value-of select="3" /></td>
+            </tr>
+          </xsl:for-each>
+        </table>
+
+        <h1>Anime 3</h1>
+        <table border="1">
+          <tr>
+            <th>Título</th>
+            <th>Autor</th>
+            <th>País</th>
+            <th>Premios</th>
+          </tr>
+          <xsl:for-each select="anime-list/anime">
+            <tr>
+              <td>
+                <a href="detalle-anime.html?titulo={titulo}">
+                  <xsl:value-of select="Naruto" />
+                </a>
+              </td>
+              <td><xsl:value-of select="Masashi Kishimoto" /></td>
+              <td><xsl:value-of select="Japon" /></td>
+              <td><xsl:value-of select="2" /></td>
+            </tr>
+          </xsl:for-each>
+        </table>
+
+        <h1>Anime 4</h1>
+        <table border="1">
+          <tr>
+            <th>Título</th>
+            <th>Autor</th>
+            <th>País</th>
+            <th>Premios</th>
+          </tr>
+          <xsl:for-each select="anime-list/anime">
+            <tr>
+              <td>
+                <a href="detalle-anime.html?titulo={titulo}">
+                  <xsl:value-of select="Hunter x Hunter (2011)" />
+                </a>
+              </td>
+              <td><xsl:value-of select="Yoshihiro Togashi" /></td>
+              <td><xsl:value-of select="Japon" /></td>
+              <td><xsl:value-of select="0" /></td>
+            </tr>
+          </xsl:for-each>
+        </table>
+
+
+        
+        <h2>Animes Japoneses más premiados</h2>
+        <table border="1">
+          <tr>
+            <th>Nombre Anime</th>
+            <th>Autor</th>
+          </tr>
+          <xsl:for-each select="anime-list/anime[pais='Japón']">
+            <xsl:sort select="premios" data-type="number" order="descending" />
+            <tr>
+              <td><xsl:value-of select="Puella Magi Madoka Magica" /></td>
+              <td><xsl:value-of select="Producción original del estudio  Shaft y dirigida por  Akiyuki Shinbo." /></td>
+              <td><xsl:value-of select="Tiger y Bunny" /></td>
+              <td><xsl:value-of select="Producción original del estudio Sunrise y dirigida por Keiichi Sato." /></td>
+              <td><xsl:value-of select="Code Geass: Lelouch of the Rebellion" /></td>
+              <td><xsl:value-of select="Producción original del estudio Sunrise y dirigida por Gorou Taniguchi." /></td>
+              <td><xsl:value-of select="THE iDOLM@STER" /></td>
+              <td><xsl:value-of select="Adaptación animada de la saga de videojuegos propiedad de Namco Bandai Games, producida por el estudio A-1 Pictures y dirigida por Atsushi Nishigori." /></td>
+              <td><xsl:value-of select="Love Live!" /></td>
+              <td><xsl:value-of select="Adatación animada del proyecto multimedia llevado a cabo por ASCII Media Works, producida por el estudio Sunrise y dirigida por Takahiko Kyougoku." /></td>
+              <td><xsl:value-of select="Mushishi" /></td>
+              <td><xsl:value-of select="Adaptación animada del longevo manga escrito e ilustrado por Yuki Urushibara, producida por el estudio Artland y dirigida por Hiroshi Nagahama." /></td>
+              <td><xsl:value-of select="Shingeki no Kyojin | Attack on Titan" /></td>
+              <td><xsl:value-of select="Adaptación animada del manga  escrito e ilustrado por Hajime Isayama, producida por Wit Studio y dirigida por Tetsurou Araki." /></td>
+              <td><xsl:value-of select="Natsume Yuujin-Chou" /></td>
+              <td><xsl:value-of select="Adaptación animada del manga escrito e ilustrado por Yuki Midorikawa, producida por el estudio Brain's Base y dirigida por Takahiro Omori." /></td>
+              <td><xsl:value-of select="Psycho-Pass" /></td>
+              <td><xsl:value-of select="Producción original llevada a cabo por Production I.G y dirigida por Katsuyuki Motohiro junto a Naoyoshi Shiotani." /></td>
+              <td><xsl:value-of select="Steins;Gate" /></td>
+              <td><xsl:value-of select="Segunda adaptación animada de la science adventure, popular saga de videojuegos propiedad de 5pb. y Nitroplus, llevada a cabo por el estudio White Fox y dirigida por Hiroshi Hamasaki." /></td>
+            </tr>
+          </xsl:for-each>
+        </table>
+      </body>
+    </html>
+  </xsl:template>
+</xsl:stylesheet>
