@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="Ejercicio1.xml">
+
+  <xs:complexType name="Primer Anime">
+    <xs:sequence>
+      <xs:element name="Fullmetal Alchemist: Brotherhood" type="xs:nombre"/>
+      <xs:element name="Después de perder a su madre, Alphonse y Edward Elric buscan la piedra filosofal para traerla de vuelta, pero descubren la verdad detrás de la alquimia." type="xs:descripcion"/>
+      <xs:element name="64" type="xs:duracion"/>
+      <xs:element name="Acción, Aventura, Fantasía" type="xs:genero"/>
+      <xs:element name="2009-04-05" type="xs:date"/>
+      <xs:element name="3" type="Tipo de premio"/>
+    </xs:sequence>
+  </xs:complexType>
+  
+  <xs:complexType name="Datos del Premio">
+    <xs:sequence>
+      <xs:element name="Mejor Serie de Anime, Mejor guion, Mejor Director" type="xs:Nombre"/>
+      <xs:element name="2010" type="xs:año premiacion" minOccurs="0"/>
+      <xs:element name="3" type="xs:nominaciones" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="Segundo  Anime">
+    <xs:sequence>
+      <xs:element name="Your Lie in April" type="xs:nombre"/>
+      <xs:element name="Un joven prodigio del piano lucha con su pasión después de sufrir un traumatismo, hasta que conoce a un violinista que le ayuda a encontrar su camino de regreso." type="xs:descripcion"/>
+      <xs:element name="22" type="xs:duracion"/>
+      <xs:element name="Drama, Romance, Música" type="xs:genero"/>
+      <xs:element name="2014-10-10" type="xs:date"/>
+      <xs:element name="3" type="Tipo de premio"/>
+    </xs:sequence>
+  </xs:complexType>
+  
+  <xs:complexType name="Datos del Premio">
+    <xs:sequence>
+      <xs:element name="Mejor Serie de Anime, Mejor Banda Sonora, Mejor Dirección de Arte" type="xs:Nombre"/>
+      <xs:element name="2015" type="xs:año premiacion" minOccurs="0"/>
+      <xs:element name="3" type="xs:nominaciones" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="Tercer  Anime">
+    <xs:sequence>
+      <xs:element name="Naruto" type="xs:nombre"/>
+      <xs:element name="Un joven ninja llamado Naruto lucha para ser reconocido en su aldea mientras busca ser el Hokage, el líder de su aldea." type="xs:descripcion"/>
+      <xs:element name="220" type="xs:duracion"/>
+      <xs:element name="Acción, Aventura, Fantasía" type="xs:genero"/>
+      <xs:element name="2002-10-03" type="xs:date"/>
+      <xs:element name="2" type="Tipo de premio"/>
+    </xs:sequence>
+  </xs:complexType>
+  
+  <xs:complexType name="Datos del Premio">
+    <xs:sequence>
+      <xs:element name="Premio de mejor anime en el Festival de Anime de Tokio, premio de mejor anime en el Festival de Anime de Osaka" type="xs:Nombre"/>
+      <xs:element name="2003" type="xs:año premiacion" minOccurs="0"/>
+      <xs:element name="5" type="xs:nominaciones" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="Cuarto  Anime">
+    <xs:sequence>
+      <xs:element name="Hunter x Hunter (2011)" type="xs:nombre"/>
+      <xs:element name="Después de aprender la verdad sobre su padre, el joven Gon Freecss decide seguir sus pasos y convertirse en un cazador, un miembro de una élite de individuos con habilidades especiales. A medida que viaja por el mundo, Gon se une a un grupo de amigos y enemigos mientras busca su objetivo final." type="xs:descripcion"/>
+      <xs:element name="220" type="xs:duracion"/>
+      <xs:element name="Acción, Aventura, Fantasía" type="xs:genero"/>
+      <xs:element name="2011-10-02" type="xs:date"/>
+      <xs:element name="0" type="Tipo de premio"/>
+    </xs:sequence>
+  </xs:complexType>
+  
+  <xs:complexType name="Datos del Premio">
+    <xs:sequence>
+      <xs:element name="Esta serie no gano ningun gran premio." type="xs:Nombre"/>
+      <xs:element name="2011" type="xs:año nominación" minOccurs="0"/>
+      <xs:element name="5" type="xs:nominaciones" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  
+  
+</xs:schema>
